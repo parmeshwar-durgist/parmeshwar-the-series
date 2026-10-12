@@ -52,5 +52,5 @@ await sharp({ create: { width: 1200, height: 630, channels: 4, background: '#070
     },
   ])
   .jpeg({ quality: 85 })
-  .toFile(`${OUT}/og-image.jpg`);
+  .toFile(`${OUT}/og-image.png`);
 console.log('images built');
